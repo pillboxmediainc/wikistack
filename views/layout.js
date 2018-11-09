@@ -36,10 +36,9 @@ module.exports = content => html`
           </div>
         </div>
       </div>
-      <div class="container content">${content}</div>
+      <div class="container content">$${content}</div>
       <hr />
       <div id="footer" class="container text-muted">
-        <br /><br />
         WIKISTACK by Fullstack Academy
       </div>
     </body>
